@@ -17,7 +17,7 @@ function App() {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
           infinite: true,
           dots: true
         }
@@ -26,7 +26,7 @@ function App() {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           initialSlide: 2
         }
       },
@@ -44,9 +44,9 @@ function App() {
 
       <div className='main'>
 
-      <div classname="heading">
-        <h1>Foody</h1>
-      <div classname="para">
+      <div className="heading">
+        <h1>Foodie</h1>
+      <div className="para">
        <p> Food brings people together on many different levels. It’s nourishment of the soul and body; it’s truly love.</p>
       </div>
       </div>
@@ -58,8 +58,7 @@ function App() {
                  
           </div>
          <div className='card-bottom'>
-         <h2> {item.title}</h2>
-          <h4>{item.price}</h4>
+         <p> {item.title}, {item.price}</p>
          </div>
         </div>
 

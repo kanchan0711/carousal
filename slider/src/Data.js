@@ -1,5 +1,3 @@
-// import Pizza from "./img/Pizza.jpg"
-
 export const foodItem=[
     {
         id:1,
